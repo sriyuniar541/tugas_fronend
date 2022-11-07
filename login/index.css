@@ -1,0 +1,102 @@
+.container{
+    width: 400px; 
+    margin-top: 40px;
+}
+.dt{
+    margin:26px 0px;
+    font-size:14px;
+}
+.tas{
+    width:36px;
+    height: 50px;
+}
+.brand{
+    font-size:28px;   
+} 
+
+.login-cus,.login-cus2,.login-seller,.login-seller,.login-seller2,.reset-password,.reset-password2,.reset-password3,.reset-account{
+    width: 1440px;
+    height: 900px;
+}
+
+.reset-account{
+    background-color: #F0F5F9;
+}
+.card-title{
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.card-text{
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.card{
+    width: 500px;
+    height: 600px;
+    border-radius: 20px;
+}
+.font-login{
+    margin-top: 25px;
+
+}
+.bt1{
+    margin-top: 66px;
+    border-radius: 40px;
+    width: 401px;
+}
+.fg{
+    margin-top:26px;
+    margin-bottom:  26px; 
+    font-size: 14px; 
+}
+
+.btn-block1{
+    color: white;
+    height: 48px;
+    width: 123px;
+    border: 1px solid #9b9b9b;
+}
+.btn-block2{
+    color: black;
+    height: 48px;
+    width: 123px;
+    border: 1px solid #9b9b9b;
+}
+.form-control{
+    width: 400px;
+    height: 48px; 
+    margin-top: 14px;
+    justify-content: center;
+}
+
+
+
+@media only screen and (max-width: 575.98px) { 
+    .container1,.container2{
+        display: none;
+    }
+}
+ 
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+  
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+
+}
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+    
+    
+}
+
