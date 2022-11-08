@@ -1,4 +1,22 @@
-.page1{
+/* .page1{
     width: 1057;
     height:744px ;
+} */
+.colors{
+    width: 36px; 
+    height: 36px;
+}
+.bj{
+    font-size: 28px;
+}
+.harga{
+    font-size: 33p0x;
+}
+.br{
+    width: 65px;
+    height:65px;
+}
+.cards{
+    width: 263px;
+    height: 329px;
 }
