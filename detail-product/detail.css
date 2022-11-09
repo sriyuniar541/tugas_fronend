@@ -16,7 +16,46 @@
     width: 65px;
     height:65px;
 }
+.bt1{
+    border-radius:20px; 
+    width: 100px;
+    height: 36px;
+}
+
 .cards{
     width: 263px;
     height: 329px;
 }
+.bt3{
+    /* margin-right: 50px; */
+    border-radius:20px; 
+    width: 100px;
+    height: 36px;
+    background-color: white;
+}
+.btg{
+    width:13px;
+    height:12px;
+}
+.sr{
+    width: 507px;
+    height: 40px;
+    border-radius:20px; 
+}
+.sr2{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    color:white;
+    background-color: 1px solid #8E8E93;
+}
+.sr3{
+    width: 22px;
+    height: 15px;
+    margin-left: 100px; 
+
+}
+/* .navbar-brand{
+    margin-left: 100px;
+} */

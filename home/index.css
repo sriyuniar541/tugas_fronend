@@ -1,3 +1,13 @@
+.tk{
+    font-size: 12px;
+}
+.br{
+    font-size: 24px;
+}
+.btg{
+    width:13px;
+    height:12px;
+}
 .colors{
     width:  36px;
 }
@@ -39,14 +49,14 @@
 .sr3{
     width: 22px;
     height: 15px;
-    margin-left: 110px;
+    margin-left: 180px;
 
 }
 .navbar-brand{
     margin-left: 100px;
 }
 .bt3{
-    margin-right: 150px;
+    margin-right: 50px;
     border-radius:20px; 
     width: 100px;
     height: 36px;
@@ -64,12 +74,12 @@
     color: white;
     position: absolute;
     line-height:175px ;
-    text-align: center;
-    
- 
+    margin-left: auto;
+    margin-right: auto;
 }
+
 .img2{
-    
+
     
     
 }

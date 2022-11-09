@@ -16,107 +16,113 @@
 <!-- awal container -->
 <div class="container">
 
-
-    <header>
     <!-- navbar -->
-    <nav class="d-flex justify-content-start navbar shadow-sm p-3 mb-2 bg-white rounded">
-        <a class="navbar-brand" href="#">
-            <img src="/image/tas.png" width="30" height="30" class="d-inline-block align-top" alt="">
-            Blanja</a>
-        <form class="form-inline">
-            <input class="form-control mr-sm-2 ml-5" style="border-radius:20px; width: 507px;height: 40px;" type="search" placeholder="Search" aria-label="Search">
-            <div>
-                <img src="/image/Vector (3).png">
-                <button type="submit" style="width: 40px;height:40px;border-radius:12px;" class="btn-outline-secondary"></button>
+    <nav class="navbar navbar-expand-lg shadow p-3 mb-5 bg-white rounded">
+        <div class="d-flex justify-content-between">
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand text-danger" href="#">
+                <img src="/image/tas.png" width="30" height="30" class="d-inline-block align-top" alt="">Blanja</a>
+                <form class="form-inline">
+                <input class="form-control mr-sm-2 ml-5" style="border-radius:20px; width: 507px;height: 40px;" type="search" placeholder="Search" aria-label="Search">
+                <button type="submit" class="sr2 border bg-white"><img src="/image/Vector (3).png"></button>
             </div>
-            <img src="/image/Vector.png">
-            <img src="/image/Vector (4).png">
-            <img src="/image/Vector (5).png">
-            <img class="rounded-circle" src="/image/christian-buehner-DItYlc26zVI-unsplash 1.png">
-        </form>
-    </nav>
-    </header>
+            <div class="atributNV"style="margin-left: 200px;">
+                <img class="mr-3" src="/image/Vector.png">
+                <img class="mr-3" src="/image/Vector (4).png">
+                <img class="mr-3" src="/image/Vector (5).png">
+                <img class="rounded-circle" src="/image/christian-buehner-DItYlc26zVI-unsplash 1.png">
+            </div>  
+        </div>
+      </nav>
 
     <h4 class="m-3">My bag</h4>
 
 <div class="containerAll d-flex">
-    <div class="container1">
-            <!-- kotak select 1 -->
-            <section class="select1">
-                <div class="card1 border shadow-sm p-3 mb-2 bg-white rounded d-flex justify-content-center">
-                    <div class="card-body">
-                        <div class="d-flex">
-                            <input type="checkbox" style="width: 20px;" class="mb-5"/>
-                            <div class="d-flex">
-                                <h5 class="card-title ml-3" style="font-size: 16px;">Select all items (2 items selected)</h5>
-                                <h5 class="card-title ml-3 text-danger" style="font-size: 16px;margin-left: 500px;">Delete</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-
-        <!-- kotak select 2 -->
-        <section class="select1">
-            <div class="card2 border shadow-sm p-3 mb-2 bg-white rounded">
-                <div class="card-body">
-                    <div class="d-flex justify-content-start">
-                        <input type="checkbox" style="width: 20px;"/>
-                        <img src="/image/bjk.png" style="width: 103px;height: 69px;border-radius: 8px;" class="m-3 ">
-                        <div>
-                            <h5 class="card-title mt-3" style="font-size: 16px;">Mean Formal Jacket</h5>
-                            <p class="card-text">Zalora Cloth</p>
-                        </div>
-                        <!-- <img class="gb1 mt-3" src="/image/Ellipse 12 (1).png">
-                        <h2>1</h2>
-                        <img src="/image/Shape.png">
-                        <h6>$ 200.000</h6> -->
-                    </div>
-                </div>
-            </div>
-        </section>
-
-            <!-- kotak select 3 -->
-            <section class="select1">
-                <div class="card2 border shadow-sm p-3 mb-2 bg-white rounded">
-                    <div class="card-body">
-                        <div class="d-flex justify-content-start">
-                            <input type="checkbox" style="width: 20px;"/>
-                            <img src="/image/bjk.png" style="width: 103px;height: 69px;border-radius: 8px;" class="m-3 ">
-                            <div>
-                                <h5 class="card-title mt-3" style="font-size: 16px;">Mean Formal Jacket</h5>
-                                <p class="card-text">Zalora Cloth</p>
-                            </div>
-                            <!-- <img class="gb1 mt-3" src="/image/Ellipse 12 (1).png">
-                            <h2>1</h2>
-                            <img src="/image/Shape.png">
-                            <h6>$ 200.000</h6> -->
-                        </div>
-                    </div>
-                </div>
-            </section>
-    </div>
-
-    <div class="container2 ml-3">
-        <!-- total harga -->
-            <div>
-                <div class="card3 border shadow-sm p-3 mb-2 bg-white rounded">
-                        <div class="card-body">
-                        <h5 class="card-title">Shopping Summary</h5>
+    <div class="row">
+        <div class="col-lg-8 col-12">
+            <div class="container1">
+                    <!-- kotak select 1  -->
+                    <div class="card p-3 mb-2 shadow-sm p-3 bg-white rounded" style="width:720px ;height:64px;">
                         <div class="d-flex justify-content-between">
-                            <p class="card-text">Total price</p>
-                            <p class="card-text">$ 50000</p>
-                        </div>
-                        <div class="d-flex justify-content-center">
-                            <button type="button" class="btn btn-danger" style="border-radius:20px; width: 300px;">Buy</button>
-                        </div>
+                            <div class="d-flex">
+                                <input type="checkbox" style="width: 20px;"/>
+                                <p class="card-title ml-3" style="font-size: 16">Select all items (2 items selected)</p>
+                            </div>
+                            <div class="">
+                                <p class="card-title text-danger" style="font-size: 16">Delete</p>
+                            </div>
+                        </div> 
                     </div>
-                </div>
+
+                    <!-- kotak select 2  -->
+                    <div class="card mb-2 p-4 shadow-sm p-3 bg-white rounded" style="width: 720px;height:126px;">
+                        <div class="d-flex d-flex justify-content-between">
+                            <div class="d-flex">
+                                <div class="d-flex mt-2">
+                                    <input type="checkbox" style="width: 20px;"/>
+                                    <img src="/image/bjk.png" style="width: 103px;height: 69px;border-radius: 8px;"class="ml-3">
+                                </div>
+                                <div class="ml-3 mt-3">
+                                    <h5 class="card-title" style="font-size: 16px;">Mean Formal Jacket</h5>
+                                    <p class="card-text">Zalora Cloth</p>
+                                </div>
+                            </div>
+                            <div class="d-flex mt-3">
+                                <img class="gb mr-3" src="/image/Ellipse 12.png">
+                                <h2>1</h2>
+                                <img src="/image/Shape.png" class="rounded-circle border gb ml-3" >
+                            </div>
+                            <div class="mt-4">
+                                <h6 class="font-size:16px;">$ 200.000</h6> 
+                            </div>
+                        </div> 
+                    </div>
+
+                    <!-- kotak select 3  -->
+                    <div class="card mb-2 p-4 shadow-sm p-3 bg-white rounded" style="width: 720px;height:126px;">
+                        <div class="d-flex d-flex justify-content-between">
+                            <div class="d-flex">
+                                <div class="d-flex mt-2">
+                                    <input type="checkbox" style="width: 20px;"/>
+                                    <img src="/image/bjk.png" style="width: 103px;height: 69px;border-radius: 8px;"class="ml-3">
+                                </div>
+                                <div class="ml-3 mt-3">
+                                    <h5 class="card-title" style="font-size: 16px;">Mean Formal Jacket</h5>
+                                    <p class="card-text">Zalora Cloth</p>
+                                </div>
+                            </div>
+                            <div class="d-flex mt-3">
+                                <img class="gb mr-3" src="/image/Ellipse 12.png">
+                                <h2>1</h2>
+                                <img src="/image/Shape.png" class="rounded-circle border gb ml-3" >
+                            </div>
+                            <div class="mt-4">
+                                <h6 class="font-size:16px;">$ 200.000</h6> 
+                            </div>
+                        </div> 
+                    </div>
             </div>
         </div>
-        </main>
+    
+        <div class="col-lg-2 col-12">
+            <div class="container2 ml-3 ">
+                <!-- total harga -->    
+                <div class="card border shadow-sm p-3 mb-2 bg-white rounded" style="width:370px;height:180px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Shopping Summary</h5>
+                            <div class="d-flex justify-content-between">
+                                <p class="card-text">Total price</p>
+                                <p class="card-text">$ 50000</p>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <button type="button" class="btn btn-danger" style="border-radius:20px; width: 322px;height: 36px;">Buy</button>
+                            </div>
+                    </div>
+                </div>     
+            </div>  
+        </div>  
     </div>
+</div>
 
 <!-- akhir container -->
 </div>
