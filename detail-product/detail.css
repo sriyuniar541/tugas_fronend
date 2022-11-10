@@ -56,6 +56,34 @@
     margin-left: 100px; 
 
 }
+
 /* .navbar-brand{
     margin-left: 100px;
 } */
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+  .s,.s1{
+    border-radius:20px; 
+    width: 100px;
+    height: 36px;
+  }
+  .d{
+    font-size: 12px;
+  }
+}
+
+
+
+/* // Large devices (desktops, less than 1200px) */
+@media (min-width: 1199.98px) { 
+    .s{
+        width:200px;
+        border-radius: 20px;
+    }
+    .s1{
+        width:410px;
+        border-radius: 20px;
+        margin-top: 10px;
+    }    
+    
+}

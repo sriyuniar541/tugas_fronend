@@ -1,8 +1,5 @@
-.container{
-    width: 400px; 
-    margin-top: 40px;
-}
-.dt{
+
+.dt{ 
     margin:26px 0px;
     font-size:14px;
 }
@@ -74,9 +71,7 @@
 
 
 @media only screen and (max-width: 575.98px) { 
-    .container1,.container2{
-        display: none;
-    }
+
 }
  
 /* // Extra small devices (portrait phones, less than 576px) */
